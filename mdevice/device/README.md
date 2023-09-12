@@ -1,14 +1,14 @@
 # APP基础操作库（Android & iOS）
 
-一 **adbkit**：Android设备操作指令方法
+# **adbkit**：Android设备操作指令方法
 
--- **Property**：封装adb获取设备指定属性值, 如 CPU架构 / 系统版本 / SDK版本等
+**Property**：封装adb获取设备指定属性值, 如 CPU架构 / 系统版本 / SDK版本等
 
--- **MNCInstaller**：Android设备安装 [minicap](https://github.com/openstf/minicap) 工具，即从项目指定目录推送至设备指定临时路径(/data/local/tmp)，其中minicap可用于实时截屏，且通过socket通信传送截屏数据
+**MNCInstaller**：Android设备安装 [minicap](https://github.com/openstf/minicap) 工具，即从项目指定目录推送至设备指定临时路径(/data/local/tmp)，其中minicap可用于实时截屏，且通过socket通信传送截屏数据
 
--- **FastBotInstaller**：Android设备安装APP稳定性测试工具 [fastbot](https://github.com/bytedance/Fastbot_Android)
+**FastBotInstaller**：Android设备安装APP稳定性测试工具 [fastbot](https://github.com/bytedance/Fastbot_Android)
 
--- **ADBKit**：
+**ADBKit**：
 
 [androguard](https://github.com/androguard/androguard)：获取APK包信息
 
@@ -105,7 +105,7 @@ adb shell
 - 其它方式: uiautomator dump /data/local/tmp/uidump-{0}-{1}.xml
 ```
 
-二 **ioskit**: iOS设备操作指令方法
+# **ioskit**: iOS设备操作指令方法
 
 **IDBKit**: 
 
